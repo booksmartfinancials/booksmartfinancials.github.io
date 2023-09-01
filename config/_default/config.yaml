@@ -27,9 +27,6 @@ menu:
     - name: Gallery
       url: '#gallery'
       weight: 3
-    - name: Reviews
-      url: '#reviews'
-      weight: 4
     - name: Contact
       url: '#contact'
       weight: 5

@@ -46,29 +46,6 @@ $(document).ready(function () {
     }
   });
 
-  // Reviews slider
-  $(".reviews-slider").slick({
-    infinite: true,
-    slidesToShow: 2,
-    slidesToScroll: 1,
-    dots: true,
-    arrows: true,
-    autoplay: true,
-    autoplaySpeed: 6000,
-    responsive: [
-      {
-        breakpoint: 992,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: true,
-          arrows: false,
-        },
-      },
-    ],
-  });
-
   // Formspree integration
   var form = document.getElementById("contact-form");
   form.addEventListener("submit", function (event) {
