@@ -79,6 +79,5 @@
 </section>
 <script src="{{ "plugins/jquery/jquery.min.js" | absURL }}"></script>
 <script src="{{ "plugins/bootstrap/bootstrap.min.js" | absURL }}"></script>
-<script src="{{ "plugins/glightbox/glightbox.min.js" | absURL }}"></script>
 {{ $script := resources.Get "js/script.js" | minify }}
 <script src="{{ $script.Permalink }}"></script>

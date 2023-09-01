@@ -1,7 +1,4 @@
 $(document).ready(function () {
-  // GLightbox initialization
-  GLightbox();
-
   var applyFixedNav = function () {
     if ($(document).scrollTop() > 100) {
       $(".navbar").addClass("nav-color-change");
