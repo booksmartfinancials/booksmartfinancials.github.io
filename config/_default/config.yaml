@@ -44,23 +44,21 @@ menu:
 
 params:
   # Website author name (who this website belongs to)
-  author: Adriano Ferreira
+  author: Tamara Jeremic
 
   # The company’s name. This will be displayed in article footers, and on the homepage when the profile layout is used.
-  name: Firm Contracting
+  name: BookSmart Financials
 
   # The website description. This will be used in the site metadata.
   description: >
-    Firm Contracting is a full-service general contractor specializing in commercial and residential 
-    construction. We are a family-owned business with over 10 years of experience in the industry. We offer a wide 
-    range of services, including new construction, remodeling, additions, and more. Our team is committed to providing 
-    quality workmanship at competitive prices. Contact us today for your free estimate!
+    BookSmart Financials is a full-service bookkeeping firm that provides bookkeeping, payroll, and tax services to
+    small businesses and individuals.
   
   # Links to the company’s social media profiles
   socials:
     - name: Facebook
       icon: fa-facebook-official
-      url: https://www.facebook.com/p/Firm-Contracting-100035335701052/
+      url: https://www.facebook.com/
     - name: Google
       icon: fa-google
-      url: https://www.google.com/search?q=firm+contracting
+      url: https://www.google.com/search?q=BookSmart+Financials
