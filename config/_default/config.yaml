@@ -1,8 +1,8 @@
 # Hugo site title
-title: Firm Contracting
+title: BookSmart Financials
 
 # The URL to the root of the website
-baseURL: https://jeremic.ca/firmcontracting.github.io/
+baseURL: https://booksmartfinancials.github.io
 
 # Language code for the website
 languageCode: en-us
