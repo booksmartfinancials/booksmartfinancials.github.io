@@ -110,7 +110,7 @@
           left: -40px;
           top: 50%;
           transform: translateY(-50%);
-          background: #fff;
+          background: $body-color;
         }
 
         @include desktop {
