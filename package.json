@@ -1,5 +1,5 @@
 {
-  "name": "firmcontracting.com",
+  "name": "booksmartfinancials.com",
   "scripts": {
     "hugo-build": "hugo --minify",
     "hugo-watch": "hugo server -b http://localhost -p 8000 --bind=0.0.0.0"

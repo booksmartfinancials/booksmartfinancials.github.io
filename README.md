@@ -1,6 +1,6 @@
-# firmcontracting.com
+# booksmartfinancials.com
 
-Professional website of Firm Contracting. Statically built using [Hugo](https://gohugo.io/) and
+Professional website of BookSmart Financials. Statically built using [Hugo](https://gohugo.io/) and
 [portio](https://github.com/StaticMania/portio-hugo). Deployed using [GitHub Actions](https://github.com/features/actions) and
 [GitHub Pages](https://pages.github.com/) in a Dockerized environment.
 
@@ -14,7 +14,7 @@ static website. The GitHub Actions automation which builds and deploys the websi
 Build the image:
 
 ```
-docker build . -t firmcontracting.com
+docker build . -t booksmartfinancials.com
 ```
 
 ### Build
@@ -22,7 +22,7 @@ docker build . -t firmcontracting.com
 To build the site we invoke Hugo extended which will transpile the SCSS under the assets directory:
 
 ```
-docker run -v $PWD:/$PWD -w $PWD -it firmcontracting.com .github/actions/hugo-build/action.sh
+docker run -v $PWD:/$PWD -w $PWD -it booksmartfinancials.com .github/actions/hugo-build/action.sh
 ```
 
 The static website is generated in the `./public` directory.
@@ -34,5 +34,5 @@ we can launch a process in our docker container which will watch for any changes
 rebuild and serve the content. We can use a terminal shell to invoke the following command:
 
 ```
-docker run -v $PWD:/$PWD -w $PWD -p 8000:8000 -it firmcontracting.com npm run hugo-watch
+docker run -v $PWD:/$PWD -w $PWD -p 8000:8000 -it booksmartfinancials.com npm run hugo-watch
 ```
