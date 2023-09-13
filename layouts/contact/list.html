@@ -41,9 +41,9 @@
             </div>
           </div>
           <h4>Phone & Email</h4>
-          {{ .contact.name }}<br>
-          <a href="tel:{{ .contact.phone }}">{{ .contact.phone }}</a><br>
-          <a href="mailto:{{ .contact.email }}">{{ .contact.email }}</a>
+          {{ site.Params.author }}<br>
+          <a href="tel:{{ site.Params.phone }}">{{ site.Params.phone }}</a><br>
+          <a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a>
         </div>
       </div>
       <div class="col-lg-6 col-md-12">

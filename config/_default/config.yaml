@@ -37,8 +37,10 @@ menu:
       weight: 2
 
 params:
-  # Website author name (who this website belongs to)
+  # Author information
   author: Tamara Jeremic
+  phone: +1 (905) 923-9469
+  email: info@booksmartfinancials.com
 
   # The company’s name. This will be displayed in article footers, and on the homepage when the profile layout is used.
   name: BookSmart Financials
