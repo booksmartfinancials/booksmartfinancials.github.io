@@ -58,6 +58,8 @@
   }
 
   &-info {
+    padding-top: 20px;
+
     @include desktop {
       padding-top: 0;
     }
