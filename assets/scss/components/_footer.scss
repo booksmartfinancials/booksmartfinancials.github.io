@@ -117,8 +117,7 @@
         }
 
         @include desktop {
-          display: inline-block;
-          margin: 0 0 20px 0;
+          display: none;
 
           &::before {
             display: none;
