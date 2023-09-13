@@ -33,23 +33,6 @@
       </div>
     </div>
     <div class="row justify-content-md-center footer-widget">
-      <div class="col-lg-3 footer-logo">
-        <div class="text-light mb-5">
-          <div>
-            <a href="{{ .Site.BaseURL }}">
-              <img src="{{ "logo-white.png" | absURL }}">
-            </a>
-          </div>
-          <ul class="unstyle-list small">
-            <li class="mb-2">
-              <a class="text-light" href="tel:{{ .Site.Params.phone }}">{{ .Site.Params.phone }}</a>
-            </li>
-            <li class="mb-2">
-              <a class="text-light" href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>
-            </li>
-          </ul>
-        </div>
-      </div>
       <div class="col-lg-3">
         <div class="text-light mb-5">
           <h4 class="base-font">Sitemap</h4>
@@ -72,6 +55,23 @@
               </a>
             </li>
             {{ end }}
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-3 footer-logo">
+        <div class="text-light mb-5">
+          <div>
+            <a href="{{ .Site.BaseURL }}">
+              <img src="{{ "logo-white.png" | absURL }}">
+            </a>
+          </div>
+          <ul class="unstyle-list small">
+            <li class="mb-2">
+              <a class="text-light" href="tel:{{ .Site.Params.phone }}">{{ .Site.Params.phone }}</a>
+            </li>
+            <li class="mb-2">
+              <a class="text-light" href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>
+            </li>
           </ul>
         </div>
       </div>
