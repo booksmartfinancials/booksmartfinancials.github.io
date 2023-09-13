@@ -22,17 +22,6 @@
     }
   }
 
-  .background-pattern-1 {
-    position: absolute;
-    bottom: 20px;
-    left: -130px;
-    animation: move-top 5s infinite linear;
-
-    @include desktop {
-      display: none;
-    }
-  }
-
   &-content {
     padding: 0 20px 0 0;
     position: relative;
@@ -98,22 +87,6 @@
 
     @include desktop {
       width: 100%;
-    }
-
-    .background-pattern-2 {
-      position: absolute;
-      top: -55px;
-      left: 50%;
-      -webkit-transform: translateX(-50%);
-      transform: translateX(-50%);
-      z-index: -1;
-      height: 150px;
-      animation: move-left 5s infinite linear;
-
-      img {
-        height: 100%;
-        width: 100%;
-      }
     }
 
     img {
