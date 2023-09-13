@@ -25,7 +25,7 @@ menu:
       url: '#services'
       weight: 2
     - name: Contact
-      url: '#contact'
+      url: 'contact'
       weight: 5
 
   sitemap:
