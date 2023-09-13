@@ -50,9 +50,9 @@ params:
   
   # Links to the company’s social media profiles
   socials:
-    - name: Facebook
-      icon: fa-facebook-official
-      url: https://www.facebook.com/
     - name: Google
       icon: fa-google
       url: https://www.google.com/search?q=BookSmart+Financials
+    - name: Instagram
+      icon: fa-instagram
+      url: https://www.instagram.com/booksmartfinancials/
