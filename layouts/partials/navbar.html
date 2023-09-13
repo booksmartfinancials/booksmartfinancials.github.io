@@ -10,7 +10,7 @@
     </button>
 
     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-      <ul class="nav navbar-nav main-navigation my-0 mx-auto">
+      <ul class="nav navbar-nav main-navigation my-0 ml-auto">
         {{ $menu := .Site.Menus.main }}
         {{ range $index, $element := $menu }}
         <li class="nav-item">
@@ -19,9 +19,6 @@
         </li>
         {{ end }}
       </ul>
-      <div class="navbar-nav mt-4 mb-2">
-        <a href="{{ "contact" | absURL }}" class="btn btn-primary btn-zoom hire_button">Hire Me Now</a>
-      </div>
     </div>
   </div>
 </nav>
