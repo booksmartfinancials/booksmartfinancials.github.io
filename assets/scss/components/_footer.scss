@@ -16,6 +16,21 @@
     }
   }
 
+  &-quickbooks {
+    img {
+      width: 40%;
+      margin-bottom: 40px;
+
+      @include mobile {
+        zoom: 0.55;
+      }
+
+      @include mobile-s {
+        zoom: 0.25;
+      }
+    }
+  }
+
   &-background-shape {
     position: absolute;
     width: 100%;
@@ -161,7 +176,7 @@
   }
 
   &-footer {
-    padding: 50px 0;
+    padding: 20px 0;
     border-top: 1px solid rgba(255, 255, 255, 0.2);
 
     @include desktop {
