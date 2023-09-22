@@ -1,51 +1,50 @@
 ---
-title: Services
+title: 
 content: >
-  ## Creative Services
+  ## Services
 
-  We offer a wide range of creative services. From interior renovations to exterior additions, we have you covered.
+  From tracking expenses and income to reconciling accounts, we offer a range of bookkeeping solutions tailored to your
+  specific needs. Let us handle the numbers, so you can focus on what you do best - growing your business. Explore our
+  bookkeeping services today and experience the peace of mind that comes with organized finances.
 services:
   - content: >
-      #### Bookkeeping
+      #### Bookkeeping Services
 
-      - Bathroom Renovations
+      - Full-Cycle Bookkeeping: We handle every aspect of your financial records, from data entry and categorization to
+      financial statement preparation.
 
-      - Kitchen Renovations
+      - Expense Tracking: Monitor and categorize expenses efficiently, helping you identify cost-saving opportunities.
 
-      - Basement Renovations
+      - Bank Reconciliation: We reconcile your bank statements to ensure your records align with your actual financial
+      transactions.
 
-      - Electrical & Plumbing
+      - Financial Statements: Prepare monthly, quarterly, or annual financial statements, including balance sheets,
+      income statements, and cash flow statements.
 
-      - Flooring & Tiling Installation
+      - Tax Preparation: We help you prepare for tax season, ensuring all documentation is in order and ready for your
+      accountant.
 
-      - Painting Services
+      - Budgeting and Forecasting: Create realistic financial plans and forecasts to guide your business decisions.
 
-      - Drywall Installation
+      - Year-End Preparation: Prepare for your year-end financial reporting and tax filings smoothly and accurately.
     image: images/service/bookkeeping.svg
   - content: >
       #### GST/HST & Payroll
 
-      - Additions
+      - HST/GST Reporting: Ensure compliance with Canadian tax regulations by having us manage your HST/GST calculations
+      and reporting.
 
-      - Fence & Custom Decks
-
-      - Concrete Designs
-
-      - Bobcat Services
-
-      - Retaining Walls
+      - Payroll Services: We handle payroll processing, including deductions, remittances, and T4 preparation, to keep
+      your employees paid accurately and on time.
     image: images/service/tax.svg
   - content: >
-      #### Financial Consulting 
+      #### Business Consulting
 
-      - Additions
+      - Business Advisory: Benefit from financial insights and advice to optimize your business's financial health and
+      growth potential.
 
-      - Fence & Custom Decks
+      - Budgeting and Forecasting: Create realistic financial plans and forecasts to guide your business decisions.
 
-      - Concrete Designs
-
-      - Bobcat Services
-
-      - Retaining Walls
+      - Customized Reports: Receive customized financial reports tailored to your specific business needs.
     image: images/service/growth.svg
 ---
