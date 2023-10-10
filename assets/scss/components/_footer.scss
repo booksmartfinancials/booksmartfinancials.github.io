@@ -113,6 +113,20 @@
         margin-bottom: 20px;
       }
 
+      h2 {
+        @include mobile {
+          font-size: 2.75rem;
+        }
+
+        @include mobile-xs {
+          font-size: 2.50rem;
+        }
+
+        @include mobile-s {
+          font-size: 2.0rem;
+        }
+      }
+
       span {
         font-size: 20px;
         display: block;
