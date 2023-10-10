@@ -1,19 +1,4 @@
 $(document).ready(function () {
-  var applyFixedNav = function () {
-    if ($(document).scrollTop() > 100) {
-      $(".navbar").addClass("nav-color-change");
-    } else {
-      $(".navbar").removeClass("nav-color-change");
-    }
-  }
-
-  // If the page is refreshed and we are not at the top of the page there won't be a scroll event, so need to call the
-  // function explicitly
-  applyFixedNav();
-
-  // Change navigation fixed property on scroll
-  $(window).scroll(applyFixedNav);
-
   // Smooth scrolling
   var scrollLink = $(".scroll");
   scrollLink.click(function (e) {
