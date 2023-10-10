@@ -196,5 +196,11 @@
     @include desktop {
       text-align: center;
     }
+
+    p {
+      @include mobile-xs {
+        font-size: 0.9rem;
+      }
+    }
   }
 }
