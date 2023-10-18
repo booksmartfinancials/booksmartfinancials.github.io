@@ -11,20 +11,31 @@
   .navbar-logo {
     img {
       margin-top: -4px;
+      min-width: 300px;
+      max-width: 300px;
 
       @include desktop {
         margin-top: 16px;
         margin-left: 20px;
         margin-bottom: 15px;
-        zoom: 70%;
+        min-width: 220px;
+        max-width: 220px;
       }
 
-      @include mobile-xs {
-        zoom: 70%;
+      @include tablet {
+        margin-top: 16px;
+        margin-left: 20px;
+        margin-bottom: 15px;
+        min-width: 220px;
+        max-width: 220px;
       }
 
-      @include mobile-s {
-        zoom: 60%;
+      @include mobile {
+        margin-top: 16px;
+        margin-left: 20px;
+        margin-bottom: 15px;
+        min-width: 220px;
+        max-width: 220px;
       }
     }
   }
