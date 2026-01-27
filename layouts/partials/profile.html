@@ -31,13 +31,26 @@
       </div>
       <div class="col-lg-6">
         <div class="profile-figure">
-          <img src="{{ .image | absURL }}" style='
+          <img src="{{ .image | absURL }}"
+               alt="{{ .name }} profile photo"
+               itemprop="image"
+               style='
                   -webkit-mask: url({{"images/profile/portrait-mask.svg" | absURL }});
                   -webkit-mask-repeat: no-repeat;
                   -webkit-mask-size: contain;
                   -webkit-mask-position: center center;
                 ' />
         </div>
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "{{ .name }}",
+          "image": "{{ .image | absURL }}",
+          "url": "{{ .Site.BaseURL }}",
+          "description": "{{ .content | plainify | truncate 160 }}"
+        }
+        </script>
       </div>
     </div>
   </div>
